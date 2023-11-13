@@ -2,28 +2,13 @@
 // true -> verdadeiro
 // false -> falso
 
-
 const primeiroNumero = 5;
-const segundoNumero = 10;
-const cadastroAtivado = true;
+const segundoNumero = 5;
+let cadastroAtivado = true;
 
-// console.log(primeiroNumero === segundoNumero);
-// Resultado = false
+//console.log(primeiroNumero === segundoNumero);
 
+const texto1 = "Alura";
+const texto2 = "alura";
 
-const primeiroNumero1 = 5;
-const segundoNumero2 = 5;
-const cadastroAtivado1 = true;
-
-// console.log(primeiroNumero1 === segundoNumero2);
-// Resultado = true
-
-const texto0 = "Alura";
-const texto1 = "a";
-
-console.log(texto0 === texto1)
-
-const texto2 = "Alura";
-const texto3 = "alura";
-
-console.log(texto2 === texto3)
+console.log(texto1 === texto2)
